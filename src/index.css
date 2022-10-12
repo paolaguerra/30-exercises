@@ -1,0 +1,426 @@
+body {
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+}
+
+input.primer-numero {
+    width: 80px;
+    margin-right: 10px;
+}
+
+input.segundo-numero {
+    width: 80px;
+    margin-right: 10px;
+}
+
+/* p {
+    margin-left: 10px;
+} */
+
+input.nombre {
+    display: flex;
+    margin: 20px;
+}
+
+input.apellido {
+    display: flex;
+    margin: 20px;
+}
+
+input.edad {
+    display: flex;
+    margin: 20px;
+}
+
+button.boton {
+    display: flex;
+    margin: 20px;
+}
+
+.contenedor {
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    width: 1000px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+}
+
+h1.name-logo {
+    display: flex;
+    background-color: #607d8b;
+    color: white;
+    height: 40px;
+    width: 165px;
+    padding: 10px;
+    margin-left: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.contenedor.red .name-logo {
+    background-color: red;
+    font-size: 28px;
+}
+
+.contenedor.blue .name-logo {
+    background-color: blue;
+    font-size: 28px;
+}
+
+.contenedor.green .name-logo {
+    background-color: green;
+    font-size: 28px;
+}
+
+.contenedor.red .menu ol {
+    background-color: red;
+}
+
+.contenedor.blue .menu ol {
+    background-color: blue;
+}
+
+.contenedor.green .menu ol {
+    background-color: green;
+}
+
+.contenedor.red button.mas {
+    background-color: red;
+}
+
+.contenedor.blue button.mas {
+    background-color: blue;
+}
+
+.contenedor.green button.mas {
+    background-color: green;
+}
+
+.contenedor.green body {
+    background-color: green;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+    padding: 8px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.contenedor-galleria {
+    display: flex;
+    justify-content: center;
+}
+
+.galleria-foto {
+    display: flex;
+    background-image: url('./img/galleria.jpg');
+    height: 532px;
+    width: 820px;
+    background-repeat: no-repeat;
+}
+
+.contenedor-columnas {
+    display: flex;
+    font-family: Helvetica, sans-serif;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    padding: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 30px;
+}
+
+h1.titulo {
+    display: flex;
+    font-family: Helvetica, sans-serif;
+}
+
+p.fecha {
+    display: flex;
+    font-size: 12px;
+    color: grey;
+    font-family: Helvetica, sans-serif;
+}
+
+p.parrafo {
+    display: flex;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+}
+
+h3.titulo {
+    display: flex;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    display: flex;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button.mas {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background: #607d8b;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+p.texto-foto {
+    display: flex;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+}
+
+button.blue-web {
+    width: 18px;
+    height: 18px;
+    border: none;
+    background: blue;
+    margin: 3px;
+    display: flex;
+    font-size: 0;
+}
+
+button.red-web {
+    width: 18px;
+    height: 18px;
+    border: none;
+    background: red;
+    margin: 3px;
+    display: flex;
+    font-size: 0;
+}
+
+button.green-web {
+    width: 18px;
+    height: 18px;
+    border: none;
+    background: green;
+    margin: 3px;
+    display: flex;
+    font-size: 0;
+}
+
+.botones {
+    position: fixed;
+    top: 360px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+button.to-top {
+    display: flex;
+    border: none;
+    color: white;
+    background: #6d6a6a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contenedor-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+p.nombre-apellido {
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+input.datos-usuario {
+    display: flex;
+    font-size: 13px;
+    margin-right: 10px;
+    background: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+button.enviar-datos {
+    display: flex;
+    border: none;
+    background: #676767;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 11px;
+}
+
+p.nombre-usuario {
+    display: flex;
+    margin-right: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+button.salir {
+    display: flex;
+    margin-right: 10px;
+    border: none;
+    background: #676767;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 11px;
+}
+
+.segunda-pantalla {
+    display: flex;
+    align-items: center;
+}
+
+.Collapsible {
+    display: flex;
+    flex-direction: column;
+}
+
+.Collapsible__contentInner {
+    display: flex;
+    flex-direction: column;
+}
+
+button.sobre-mi {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+button.reloj {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+}
+
+button.boton-contacto {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.contenedor.blue button.boton-contacto {
+    background-color: blue;
+}
+
+.contenedor.red button.boton-contacto {
+    background-color: red;
+}
+
+.contenedor.green button.boton-contacto {
+    background-color: green;
+}
+
+input.name {
+    display: flex;
+    font-size: 13px;
+    margin-right: 10px;
+    background: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 460px;
+}
+
+input.mail {
+    display: flex;
+    font-size: 13px;
+    margin-right: 10px;
+    background: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 460px;
+}
+
+input.mensaje {
+    display: flex;
+    font-size: 13px;
+    margin-right: 10px;
+    background: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 460px;
+    height: 100px;
+}
+
+p.name {
+    display: flex;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+}
+
+p.mail {
+    display: flex;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+}
+
+p.mensaje {
+    display: flex;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+}
+
+p.mensaje-enviado {
+    display: flex;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+}
